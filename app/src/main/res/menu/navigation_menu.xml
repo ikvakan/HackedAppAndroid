@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/menuItems"
+        android:icon="@drawable/outline_search_black_24"
+        android:title="@string/breaches" />
+
+    <item
+        android:id="@+id/menuReport"
+        android:icon="@drawable/ic_baseline_report_24"
+        android:title="Report breach"/>
+
+    <item
+        android:id="@+id/menuSavedBreaches"
+        android:icon="@drawable/ic_baseline_saved_search_24"
+        android:title="Saved breaches"/>
+
+
+    <item android:title="@string/appInfo">
+        <menu>
+            <item
+                android:id="@+id/menuAbout"
+                android:icon="@drawable/outline_info_black_24dp"
+                android:title="@string/about" />
+
+        </menu>
+    </item>
+
+
+</menu>

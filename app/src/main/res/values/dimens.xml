@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="splashPaddingMain">50dp</dimen>
+    <dimen name="splashIvHeight">300dp</dimen>
+    <dimen name="paddingTvSplash">20dp</dimen>
+    <dimen name="navMarginTop">20dp</dimen>
+    <dimen name="navHeight">150dp</dimen>
+    <dimen name="navWidth">150dp</dimen>
+    <dimen name="navImagePaddingBottom">15dp</dimen>
+    <dimen name="cornerRadius">12dp</dimen>
+    <dimen name="paddingMain">10dp</dimen>
+
+    <dimen name="tvTextSize">20sp</dimen>
+    <dimen name="tvMarginLeft">20dp</dimen>
+    <dimen name="tvCardWidth">75dp</dimen>
+    <dimen name="tvCardTxtSize">14sp</dimen>
+    <dimen name="pagerPadding">10dp</dimen>
+    <dimen name="pagerTxtSize">20sp</dimen>
+    <dimen name="ivHeightTitlePager">200dp</dimen>
+    <dimen name="ivPaddingPager">9dp</dimen>
+    <dimen name="tblLayoutPadding">20dp</dimen>
+    <dimen name="tvPaddingPager">5dp</dimen>
+    <dimen name="ivWidthPager">25dp</dimen>
+    <dimen name="ivHeightPager">25dp</dimen>
+    <dimen name="tvAboutTxtSize">20sp</dimen>
+    <dimen name="tvAboutPadding">10dp</dimen>
+    <dimen name="tvAboutWidth">250dp</dimen>
+    <dimen name="ivReportHeight">150dp</dimen>
+    <dimen name="ivReportPadding">9dp</dimen>
+    <dimen name="tvReportTxtSize">20sp</dimen>
+</resources>

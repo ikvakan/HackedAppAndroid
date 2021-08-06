@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    tools:context=".AboutFragment">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="270dp"
+        android:src="@drawable/about_logo_icon_2"
+        />
+
+    <LinearLayout
+        android:padding="@dimen/tvAboutPadding"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:padding="@dimen/tvAboutPadding"
+            android:layout_width="@dimen/tvAboutWidth"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Developer"
+            android:textStyle="bold"
+            android:textSize="@dimen/tvAboutTxtSize"/>
+
+        <TextView
+            android:padding="@dimen/tvAboutPadding"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="@string/tvAboutDevelooper"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:padding="@dimen/tvAboutPadding"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:padding="@dimen/tvAboutPadding"
+            android:layout_width="@dimen/tvAboutWidth"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="App version"
+            android:textStyle="bold"
+            android:textSize="@dimen/tvAboutTxtSize"/>
+
+        <TextView
+            android:padding="@dimen/tvAboutPadding"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_weight="2"
+            android:text="@string/tvAppVersion"/>
+
+    </LinearLayout>
+
+</LinearLayout>
+
+

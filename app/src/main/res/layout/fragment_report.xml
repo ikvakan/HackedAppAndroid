@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ReportFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/ivReportHeight"
+            android:padding="@dimen/ivReportPadding"
+            android:src="@drawable/pager_image"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Company"
+            android:textAlignment="center"
+            android:textSize="@dimen/tvReportTxtSize"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etCompany"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="'Facebook' "
+            android:lines="2"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Breach date"
+            android:textAlignment="center"
+            android:textSize="@dimen/tvReportTxtSize"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:hint="'yyyy-MM-dd'"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Domain"
+            android:textAlignment="center"
+            android:textSize="@dimen/tvReportTxtSize"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etDomain"
+            android:hint="'https://www.facebook.com'"
+            android:lines="2"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Breaches"
+            android:textAlignment="center"
+            android:textSize="@dimen/tvReportTxtSize"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etNumOfBreaches"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:inputType="number"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Description"
+            android:textAlignment="center"
+            android:textSize="@dimen/tvReportTxtSize"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="@dimen/tblLayoutPadding"
+            >
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                >
+
+
+                <TextView
+                    android:id="@+id/tvVerified"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/tvPaddingPager"
+                    android:text="Verified"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/ivVerified"
+                    android:layout_width="@dimen/ivWidthPager"
+                    android:layout_height="@dimen/ivHeightPager"
+                    android:src="@drawable/accept" />
+
+<!--                <Switch android:id="@+id/swVerified"-->
+<!--                    />-->
+                <TextView
+                    android:id="@+id/tvSensitive"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/tvPaddingPager"
+                    android:text="Sensitive"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/ivSensitive"
+                    android:layout_width="@dimen/ivWidthPager"
+                    android:layout_height="@dimen/ivHeightPager"
+                    android:src="@drawable/accept" />
+
+                <TextView
+                    android:id="@+id/tvRetired"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="Retired"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/ivRetired"
+                    android:layout_width="@dimen/ivWidthPager"
+                    android:layout_height="@dimen/ivHeightPager"
+                    android:src="@drawable/accept" />
+
+                <TextView
+                    android:id="@+id/tvSpam"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/tvPaddingPager"
+                    android:text="Spam"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/ivSpam"
+                    android:layout_width="@dimen/ivWidthPager"
+                    android:layout_height="@dimen/ivHeightPager"
+                    android:src="@drawable/accept" />
+            </TableRow>
+
+        </TableLayout>
+
+        <Button
+            android:id="@+id/btnSendReport"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:textColor="@android:color/white"
+            android:background="@android:color/black"
+            android:text="Send report"/>
+
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>
